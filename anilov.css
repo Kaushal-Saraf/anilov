@@ -1,0 +1,83 @@
+navbar{
+    margin: 0%;
+}
+navbar div{
+    display:flex;
+    width:100%;
+    background-color: azure;
+}
+navbar p{
+    width: 60%;
+    padding: 2%;
+}
+navbar div p a{
+    text-decoration: none;
+    color: rgb(117, 72, 240);
+}
+navbar ul{
+    display: flex;
+    width:40%;
+}
+navbar li:nth-child(1){
+    margin-left: auto;
+}
+navbar li:nth-child(4){
+    margin-right: 20%;
+}
+
+navbar li{
+    display: inline;
+    width: 15%;
+    padding:2%;
+    
+}
+navbar div li a:hover{
+    color: rgb(110, 209, 252);
+}
+section div p{
+    margin-top: -3%;
+    background-color: rgba(112, 165, 251, 0.792);
+    text-align: center;
+}
+post div{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height:100%;
+}
+post div img{
+    display: inline-block;
+    width: 20%;
+    border: 1px solid bisque;
+    margin: 0%;
+    background-color: aqua;
+    height: 100%;
+    vertical-align: middle;
+}
+post div p{
+    display: inline-block;
+    width:80%;
+    border:1px solid bisque;
+    margin: 0%;
+}
+footer{
+    background-color: gainsboro;
+    margin: 0%;
+}
+footer div ul{
+    display:flex;
+    width: 100%;
+    padding-left: 0%;
+}
+footer div ul li{
+    display: inline;
+    width: 50%;
+    text-align: center;
+}
+footer div ul li:hover{
+    color: gray;
+}
+footer div{
+    text-align: center;
+    border: 1px solid black;
+}
